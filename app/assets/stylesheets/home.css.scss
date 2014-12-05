@@ -10,3 +10,49 @@
     color: #23719f;
 }
 */
+
+.m-t-10 {
+    margin-top: 10px;
+}
+.m-t-15 {
+    margin-top: 15px;
+}
+.m-t-7 {
+    margin-top: 7px;
+}
+.m-t-17 {
+    margin-top: 17px;
+}
+.m-t--50 {
+    margin-top: -50px;
+}
+.m-r-20 {
+    margin-right: 20px;
+}
+.droid-sans {
+    font-family: 'Droid Sans', sans-serif;
+}
+.color-337ab7 {
+    color: #337ab7;
+}
+.font-30-bold {
+    font-size: 30px;
+    font-weight: bold;
+}
+.font-17 {
+    font-size: 17px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-bold {
+    font-weight: bold;
+}
+.m-b-0 {
+    margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+    .col-xs-8.col-xs-offset-2.text-center.droid-sans.font-17 {
+        font-size: 15px;
+    }
+}

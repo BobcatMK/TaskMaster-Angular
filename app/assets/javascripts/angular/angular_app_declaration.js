@@ -10,3 +10,15 @@ TaskMasterApp = angular.module("TaskMasterApp",['ngResource','ngRoute'])
             templateUrl: '/assets/angular/views/home.html.slim'
         })
     })
+    .controller('TestCtrl',function($scope) {
+        /*
+        $(document).ready(function() {
+            $("button").click(function() {
+                alert("clicked");
+            })
+        })
+        */
+
+    })
+
+    

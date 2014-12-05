@@ -2,14 +2,14 @@ describe("Test routes",function() {
     var $scope = null;
     var ctrl = null;
 
-    beforeEach(module("TaskMasterApp"));
+    beforeEach(angular.mock.module("TaskMasterApp"));
     var r,l,rS,hB;
 
-    beforeEach(inject(function($route,$location,$rootScope,$httpBackend) {
-        r = $route
-        l = $location
-        rS = $rootScope
-        hB = $httpBackend
+    beforeEach(angular.mock.inject(function($route,$location,$rootScope,$httpBackend) {
+        r = $route;
+        l = $location;
+        rS = $rootScope;
+        hB = $httpBackend;
     }));
 
     it("should test / route",function() {

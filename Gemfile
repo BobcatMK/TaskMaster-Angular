@@ -23,7 +23,6 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'slim-rails'
-gem 'capybara'
 gem 'draper'   # decorators for helpers and models
 gem 'interactor' # lightweight framework extender for controller, it helps with writting data and tests
 gem 'unicorn'
@@ -32,6 +31,8 @@ gem 'rack-timeout'
 gem 'spring',        group: :development
 group :test,:development do
     gem "rspec-rails"
+    gem 'capybara'
+    gem "selenium-webdriver"
 end
 
 # BELOW gems for Bootstrap
